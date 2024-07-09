@@ -198,3 +198,22 @@
   width: 100%;
 }
 /* ==== why-web-dev section ends ==== */
+/* ==== my-inspiration-section starts ==== */
+.my-inspiration-section{
+  padding: 2px;
+}
+.my-inspiration-section .container{
+  margin-top: 150px;
+}
+.my-inspiration-section .container .top-header-div{
+  margin-bottom: 80px;
+}
+.youtube-video{
+  padding: 32px;
+  width: 100%;
+}
+.youtube-video iframe{
+  width: 100%;
+  border-radius: 20px;
+}
+/* ==== my-inspiration-section ends ==== */
