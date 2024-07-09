@@ -81,7 +81,7 @@
   align-items: center;
 }
 .header-section nav h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 2.8rem;
   color: var(--textColor);
@@ -338,3 +338,29 @@
   border: none;
 }
 /* ===== subscription section ends ==== */
+/* ==== footer section starts ==== */
+.footer-section{
+  width: 100%;
+  padding: 20px 0;
+  background-color:  rgba(13, 19, 33, 0.03);
+}
+.footer-section .container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-icon-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer-icon-div .footer-icon{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.footer-icon img{
+  width: 100%;
+}
+/* ==== footer section ends ==== */
