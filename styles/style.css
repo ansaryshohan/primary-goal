@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --bgColor: rgba(13, 19, 33, 0.02);
   --cardBgColor: linear-gradient(
@@ -14,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
 }
 /* ====common css ==== */
 .container {
@@ -144,7 +147,7 @@
 .card-hero-div {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 26px;
   padding: 10px;
 }
 .card-hero {
@@ -154,19 +157,19 @@
   border-radius: 16px;
   background-color: var(--cardBgColor);
   border: 1px solid rgb(255, 255, 255);
-  padding: 48px;
+  padding: 10px 48px;
 }
-.card-hero-2{
+.card-hero-2 {
   display: flex;
   align-items: center;
-  justify-content:left;
+  justify-content: left;
   gap: 20px;
   border-radius: 16px;
   background-color: var(--cardBgColor);
   border: 1px solid rgb(255, 255, 255);
   padding: 48px;
 }
-.card-text-div{
+.card-text-div {
   width: 40%;
   background-color: transparent;
 }
@@ -191,29 +194,92 @@
   padding: 5px 8px;
   border-radius: 2px;
 }
-.card-img-div{
+.card-img-div {
   width: 40%;
 }
-.card-img-div img{
+.card-img-div img {
   width: 100%;
 }
 /* ==== why-web-dev section ends ==== */
 /* ==== my-inspiration-section starts ==== */
-.my-inspiration-section{
+.my-inspiration-section {
   padding: 2px;
 }
-.my-inspiration-section .container{
+.my-inspiration-section .container {
   margin-top: 150px;
 }
-.my-inspiration-section .container .top-header-div{
+.my-inspiration-section .container .top-header-div {
   margin-bottom: 80px;
 }
-.youtube-video{
+.youtube-video {
   padding: 32px;
   width: 100%;
 }
-.youtube-video iframe{
+.youtube-video iframe {
   width: 100%;
   border-radius: 20px;
 }
 /* ==== my-inspiration-section ends ==== */
+/* === my current goal section starts === */
+.pink-card-bg {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.sky-card-bg {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.lemon-card-bg {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.my-current-goal-section {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.my-current-goal-section .container {
+  padding-top: 30px;
+}
+.my-current-goal-section .container .top-header-div {
+  margin-bottom: 30px;
+}
+.current-goal-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.current-goal-cards .current-goal-card {
+  width: 30%;
+  padding: 40px 20px;
+  border-radius: 16px;
+}
+.current-goal-card-img img {
+  width: auto;
+  height: 50px;
+}
+.current-goal-card-text h3 {
+  color: var(--textColor);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+}
+.current-goal-card-text p {
+  color: var(--textColor);
+  opacity: .6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 8px;
+
+}
+.current-goal-card-text a {
+  color: var(--textColor);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+}
+
+/* === my current goal section ends === */
