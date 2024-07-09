@@ -265,13 +265,12 @@
 }
 .current-goal-card-text p {
   color: var(--textColor);
-  opacity: .6;
+  opacity: 0.6;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
   margin-bottom: 8px;
-
 }
 .current-goal-card-text a {
   color: var(--textColor);
@@ -281,5 +280,61 @@
   letter-spacing: 0%;
   text-decoration-line: underline;
 }
-
 /* === my current goal section ends === */
+/* ===== subscription section starts ==== */
+.subscribe-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.subscribe-section .container {
+  background: rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 64px 0;
+  border-radius: 16px;
+}
+.subscribe-section .container .top-header-div .heading {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.subscribe-section .container .top-header-div .sub-heading {
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.subscribe-section #email {
+  width: 548px;
+  height: 57px;
+  background: rgb(255, 255, 255);
+  padding: 19px 20px 19px 20px;
+  margin: 0px 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  outline: none;
+}
+.subscribe-section [type="submit"] {
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  border: none;
+}
+/* ===== subscription section ends ==== */
