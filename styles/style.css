@@ -202,6 +202,7 @@ html {
 .card-text-div .btn-outline {
   padding: 5px 8px;
   border-radius: 2px;
+  cursor: pointer;
 }
 .card-img-div {
   width: 40%;
